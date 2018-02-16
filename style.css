@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Harenosora';
+  src: url('./Harenosora.otf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Harenosora';
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 5em;
+  letter-spacing: 20px;
+}
